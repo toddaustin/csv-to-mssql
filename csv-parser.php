@@ -41,7 +41,7 @@ if ($_FILES[csv][size] > 0) {
             $headings.="$cell";
         }
     }
-    // set Null to NULL or N/admin
+    // set Null to NULL or N/A
     if ($currentTable == 'fourth' || $currentTable == 'fifth' || $currentTable == 'sixth'){
         $setNull = "NULL";
     } else {
